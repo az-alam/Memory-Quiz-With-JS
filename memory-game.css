@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#screen1{
+    height: 100vh;
+    background-color: rgb(218, 227, 227);
+}
+
+
+#screen2{
+    display: none;
+    height: 100vh;
+    background-color: darkslategrey;
+
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    height: 60px;
+    width: 100%;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 1rem;
+    width: 200px;
+    margin-top: 1rem;
+    font-size: 1rem;
+    border: 1px solid pink;
+    border-radius: 10px;
+}
